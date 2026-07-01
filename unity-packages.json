@@ -135,11 +135,11 @@
     "name":"com.unity.ads",
     "displayName":"Advertisement Legacy",
     "description":"NOTE: as of January 31, 2026, the Unity Ads network is completing its transition to in-app bidding and direct integration of the Unity Ads SDK using this package for monetization purposes is no longer supported. To begin or continue monetizing with Unity Ads and receiving access to all Unity Ads performance feature updates, we recommend installing the Ads Mediation package for LevelPlay, Unity's ad mediation platform. For more information, see:\n\nhttps://docs.unity.com/en-us/grow/levelplay/sdk/unity/package-integration\nhttps://docs.unity.com/en-us/grow/levelplay/sdk/unity/migrate-from-unity-ads-to-levelplay",
-    "version":"4.17.0",
+    "version":"4.19.0",
     "dependencies":{
         "com.unity.ugui":"1.0.0","com.unity.modules.androidjni":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.ads@4.17/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.ads@4.19/manual/index.html"
 }
 ,
 "com.unity.ads.ios-support":{
