@@ -476,7 +476,7 @@
     "name":"com.unity.learn.iet-framework",
     "displayName":"Tutorial Framework",
     "description":"This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
-    "version":"6.0.4",
+    "version":"6.0.5",
     "dependencies":{
         "com.unity.editorcoroutines":"1.0.0","com.unity.settings-manager":"1.0.3"
     },
@@ -487,9 +487,9 @@
     "name":"com.unity.learn.iet-framework.authoring",
     "displayName":"Tutorial Authoring Tools",
     "description":"Authoring tools for In-Editor Tutorials. Required for authoring In-Editor Tutorial assets.",
-    "version":"2.0.4",
+    "version":"2.0.5",
     "dependencies":{
-        "com.unity.learn.iet-framework":"6.0.4"
+        "com.unity.learn.iet-framework":"6.0.5"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.learn.iet-framework.authoring@2.0/manual/index.html"
 }
@@ -1323,7 +1323,7 @@
     "name":"com.unity.services.authentication",
     "displayName":"Authentication",
     "description":"Client SDK offering player identity management for Unity Gaming Services.\n\nIdentity providers can be configured from the editor or the Unity Dashboard.\n\nPlayer management is available in the Unity Dashboard.",
-    "version":"3.7.2",
+    "version":"3.7.3",
     "dependencies":{
         "com.unity.ugui":"1.0.0","com.unity.services.core":"1.18.0","com.unity.nuget.newtonsoft-json":"3.2.2","com.unity.modules.unitywebrequest":"1.0.0"
     },
