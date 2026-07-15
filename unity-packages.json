@@ -157,7 +157,7 @@
     "name":"com.unity.ai.navigation",
     "displayName":"AI Navigation",
     "description":"The AI Navigation package contains high-level components that allow you to use navmeshes to incorporate navigation and pathfinding in your game. With this package installed you can build and use navmeshes at runtime and at edit time, create dynamic obstacles, and use links to allow specific actions (like jumping) as your characters navigate between navmeshes.",
-    "version":"2.0.13",
+    "version":"2.0.14",
     "dependencies":{
         "com.unity.modules.ai":"1.0.0"
     },
