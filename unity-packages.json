@@ -234,9 +234,9 @@
     "name":"com.unity.collab-proxy",
     "displayName":"Unity Version Control",
     "description":"The package gives you the ability to use Unity Version Control in the Unity editor. To use Unity Version Control, a subscription is required. Learn more about how you can get started for free by visiting https://unity.com/solutions/version-control",
-    "version":"2.13.3",
+    "version":"2.13.5",
     "dependencies":{
-        "com.unity.collections":"2.6.2"
+        "com.unity.collections":"2.6.8"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.13/manual/index.html"
 }
@@ -1059,7 +1059,7 @@
     "name":"com.unity.netcode",
     "displayName":"Netcode for Entities",
     "description":"Unity's Data Oriented Technology Stack (DOTS) multiplayer netcode layer - a high level netcode system built on entities. This package provides a foundation for creating networked multiplayer applications within DOTS.",
-    "version":"1.14.0",
+    "version":"1.14.1",
     "dependencies":{
         "com.unity.entities":"1.4.4","com.unity.transport":"2.5.3","com.unity.modules.animation":"1.0.0"
     },
