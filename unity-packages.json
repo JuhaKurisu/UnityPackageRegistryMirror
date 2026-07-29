@@ -575,11 +575,11 @@
     "name":"com.unity.ml-agents",
     "displayName":"ML Agents",
     "description":"Use state-of-the-art machine learning to create intelligent character behaviors in any Unity environment (games, robotics, film, etc.).",
-    "version":"4.0.3",
+    "version":"4.1.0",
     "dependencies":{
         "com.unity.ai.inference":"2.6.1","com.unity.modules.physics":"1.0.0","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.imageconversion":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.ml-agents@4.0/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.ml-agents@4.1/manual/index.html"
 }
 ,
 "com.unity.mobile.android-logcat":{
