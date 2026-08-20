@@ -454,7 +454,7 @@
     "name":"com.unity.ide.visualstudio",
     "displayName":"Visual Studio Editor",
     "description":"Code editor integration for supporting Visual Studio as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
-    "version":"2.0.27",
+    "version":"2.0.28",
     "dependencies":{
         "com.unity.test-framework":"1.1.33"
     },
@@ -1642,7 +1642,7 @@
     "name":"com.unity.terrain-tools",
     "displayName":"Terrain Tools",
     "description":"The Terrain Tools package adds additional Terrain sculpting brushes and tools to Unity. This add-on toolset is suitable if you require more control over the appearance of your Terrain, and want to streamline Terrain workflows. It’s also useful when you want to make more complex-looking Terrain, or author Terrain Texture data in external digital content creation tools.",
-    "version":"5.3.2",
+    "version":"5.3.3",
     "dependencies":{
         "com.unity.modules.terrain":"1.0.0","com.unity.modules.terrainphysics":"1.0.0"
     },
