@@ -1059,7 +1059,7 @@
     "name":"com.unity.netcode",
     "displayName":"Netcode for Entities",
     "description":"Unity's Data Oriented Technology Stack (DOTS) multiplayer netcode layer - a high level netcode system built on entities. This package provides a foundation for creating networked multiplayer applications within DOTS.",
-    "version":"1.14.2",
+    "version":"1.14.3",
     "dependencies":{
         "com.unity.entities":"1.4.4","com.unity.transport":"2.5.3","com.unity.modules.animation":"1.0.0"
     },
@@ -1323,11 +1323,11 @@
     "name":"com.unity.services.authentication",
     "displayName":"Authentication",
     "description":"Client SDK offering player identity management for Unity Gaming Services.\n\nIdentity providers can be configured from the editor or the Unity Dashboard.\n\nPlayer management is available in the Unity Dashboard.",
-    "version":"3.7.4",
+    "version":"3.8.0",
     "dependencies":{
         "com.unity.ugui":"1.0.0","com.unity.services.core":"1.18.0","com.unity.nuget.newtonsoft-json":"3.2.2","com.unity.modules.unitywebrequest":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.authentication@3.7/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.authentication@3.8/manual/index.html"
 }
 ,
 "com.unity.services.ccd.management":{
@@ -1488,7 +1488,7 @@
     "name":"com.unity.services.multiplayer",
     "displayName":"Multiplayer Services",
     "description":"The Multiplayer Services package is a one-stop solution for adding multiplayer elements to a game developed in Unity. The Unity Gaming Services (UGS) Multiplayer services powers these capabilities to define how groups of players interact in your games.",
-    "version":"2.3.2",
+    "version":"2.3.3",
     "dependencies":{
         "com.unity.transport":"2.7.3","com.unity.collections":"2.6.7","com.unity.services.qos":"1.4.1","com.unity.services.core":"1.18.0","com.unity.services.wire":"1.5.1","com.unity.services.deployment":"1.7.2","com.unity.nuget.newtonsoft-json":"3.2.2","com.unity.modules.unitywebrequest":"1.0.0","com.unity.services.authentication":"3.7.0"
     },
