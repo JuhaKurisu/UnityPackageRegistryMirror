@@ -1576,7 +1576,7 @@
     "name":"com.unity.services.vivox",
     "displayName":"Vivox",
     "description":"Unity's voice and text chat service for multiplayer communication offers voice chat and direct message text service with a managed hosted solution. Plug into your game and configure your project settings to add communications to your project immediately. Connect an unlimited number of users in 2D and 3D channels. Monitor concurrency on your dashboard. Add a custom UI to allow players to control voice volume, mute, and add audio effects to voice channels and manage them. Place users in team chat and allow them to participate in multiple channels.",
-    "version":"16.12.0",
+    "version":"16.12.1",
     "dependencies":{
         "com.unity.modules.audio":"1.0.0","com.unity.services.core":"1.15.1","com.unity.settings-manager":"1.0.3","com.unity.nuget.newtonsoft-json":"3.0.2"
     },
@@ -1840,7 +1840,7 @@
     "name":"com.unity.xr.interaction.toolkit",
     "displayName":"XR Interaction Toolkit",
     "description":"A high-level, component-based, interaction system for creating VR and AR experiences. It provides a framework that makes 3D and UI interactions available from Unity input events. The core of this system is a set of base Interactor and Interactable components, and an Interaction Manager that ties these two types of components together. It also contains components that you can use for locomotion and drawing visuals.",
-    "version":"3.6.0",
+    "version":"3.6.1",
     "dependencies":{
         "com.unity.ugui":"2.0.0","com.unity.modules.xr":"1.0.0","com.unity.inputsystem":"1.8.1","com.unity.mathematics":"1.2.6","com.unity.modules.audio":"1.0.0","com.unity.modules.imgui":"1.0.0","com.unity.xr.core-utils":"2.4.0","com.unity.modules.physics":"1.0.0"
     },
