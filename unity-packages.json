@@ -1,4 +1,4 @@
-{"count":174, "packages":{
+{"count":175, "packages":{
 "com.havok.physics":{
     "name":"com.havok.physics",
     "displayName":"Havok Physics for Unity",
@@ -316,6 +316,17 @@
         "com.unity.entities":"1.4.8","com.unity.render-pipelines.core":"14.0.10","com.unity.modules.particlesystem":"1.0.0"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.entities.graphics@1.4/manual/index.html"
+}
+,
+"com.unity.external-dependency-manager":{
+    "name":"com.unity.external-dependency-manager",
+    "displayName":"External Dependency Manager",
+    "description":"External Dependency Manager helps Unity projects automatically resolve and manage native plugin dependencies (e.g., Android/iOS libraries).",
+    "version":"2.1.0",
+    "dependencies":{
+        "com.unity.modules.uielements":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.external-dependency-manager@2.1/manual/index.html"
 }
 ,
 "com.unity.feature.2d":{
