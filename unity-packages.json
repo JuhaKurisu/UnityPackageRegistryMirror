@@ -1191,9 +1191,9 @@
     "name":"com.unity.purchasing",
     "displayName":"In-App Purchasing",
     "description":"Unity In-App Purchasing (Unity IAP) allows you to sell digital content within your application. This package provides a unified API for handling in-app purchases across multiple platforms, including the Apple App Store and Google Play Store.\n\nUnity IAP also supports direct-to-consumer (D2C) sales, letting you sell to your players outside the app stores through your own webshop, with a shared product catalog across all of them. The in-game purchase flows are built to make it easy for you to comply with Apple and Google's policies for external purchases in supported regions (refer to Unity IAP documentation):\n\n ▪ A single API to access all supported stores, making it easier to manage your in-game economy.\n ▪ D2C sales through supported payment providers, who act as merchant of record so you don't take on tax, fraud or chargebacks.\n ▪ One product catalog shared across D2C providers that can be imported from Apple & Google.\n ▪ D2C purchase flows designed for Apple and Google's external purchase policies, by region.\n ▪ A free hosted webshop generated from your catalog.\n ▪ Reporting across app store and direct-to-consumer purchases in one place (Unity Analytics not required).\n ▪ Client-side receipt validation for the Apple App Store and Google Play.\n\nTo enable In-App Purchasing, install the package, then go to Services > In-App Purchasing > Configure.\n\nThis package collects data on your behalf as described in Unity's Developer Data framework. Collection can be managed per project in the Developer Data section of Project Settings in the Unity Dashboard.",
-    "version":"5.4.3",
+    "version":"5.4.4",
     "dependencies":{
-        "com.unity.ugui":"1.0.0","com.unity.services.core":"1.18.0","com.unity.modules.androidjni":"1.0.0","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
+        "com.unity.ugui":"1.0.0","com.unity.services.core":"1.18.0","com.unity.modules.androidjni":"1.0.0","com.unity.services.deployment":"1.7.2","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.purchasing@5.4/manual/index.html"
 }
