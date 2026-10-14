@@ -1389,7 +1389,7 @@
     "name":"com.unity.services.cloudsave",
     "displayName":"Cloud Save",
     "description":"Build better player experiences with seamless game data stored securely in the cloud.\n\nUse Cloud Save to store your players’ progress and preferences, by doing so you can share this data between all the players’ devices and any game backend services.",
-    "version":"3.4.1",
+    "version":"3.4.2",
     "dependencies":{
         "com.unity.services.core":"1.12.5","com.unity.services.authentication":"3.3.1"
     },
