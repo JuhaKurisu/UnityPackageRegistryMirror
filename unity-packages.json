@@ -465,9 +465,9 @@
     "name":"com.unity.ide.visualstudio",
     "displayName":"Visual Studio Editor",
     "description":"Code editor integration for supporting Visual Studio as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
-    "version":"2.0.28",
+    "version":"2.0.29",
     "dependencies":{
-        "com.unity.test-framework":"1.1.33"
+        
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html"
 }
@@ -1444,7 +1444,7 @@
     "name":"com.unity.services.levelplay",
     "displayName":"Ads Mediation",
     "description":"After you've installed the Ads Mediation package, create a LevelPlay account and complete your app's ad format integrations if you haven't done so already. Here are the next steps: https://docs.unity.com/grow/levelplay/sdk/unity/package-integration/\n\nIMPORTANT UPGRADE NOTES:\n\nBefore updating from Ads Mediation <9.0.0 (or levelplay.unitypackage) to Ads Mediation v9.0.0+, complete the following actions to migrate smoothly:\n\nPlease note: if you are using Developer Settings, you will need to back up your values and re-enter them once you have updated to the latest version of the SDK.\n\n1. In your Project window, locate the Assets/LevelPlay (or Assets/IronSource) folder. Delete this folder and its contents.\n2. In your Project window, locate the Assets/Mobile Dependency Resolver folder. If it exists, delete this folder and its contents.\n3. Return to the Ads Mediation package in Package Manager and install the latest version.\n4. Launch the LevelPlay Network Manager from the Ads Mediation top menu and reinstall network adapters.\n\nFor more information:\n\n▪ Migration guide: https://docs.unity.com/grow/levelplay/sdk/unity/migrate-to-9-0-0/\n▪ Troubleshooting steps: https://docs.unity.com/grow/dashboard/levelplay/troubleshoot\n\nPACKAGE DESCRIPTION:\n\nDrive higher revenue with the leading ads mediation platform from Unity. LevelPlay gives you access to a unified auction of all the leading SDK networks and bidders to maximize competition and increase your potential earnings. Serve a diverse mix of ad formats, get real time monetization data, A/B test adjustments to your ad strategy, and more.\n\nSupported platforms:\n\n▪ Android\n▪ iOS",
-    "version":"9.5.1",
+    "version":"9.6.0",
     "dependencies":{
         "com.unity.services.core":"1.15.1"
     },
@@ -1807,9 +1807,9 @@
     "name":"com.unity.xr.arcore",
     "displayName":"Google ARCore XR Plugin",
     "description":"Provides native Google ARCore integration for use with Unity's multi-platform XR API.\nSupports the following features:\n-Efficient Background Rendering\n-Horizontal Planes\n-Depth Data\n-Anchors\n-Hit Testing\n-Occlusion",
-    "version":"6.7.0",
+    "version":"6.7.1",
     "dependencies":{
-        "com.unity.xr.core-utils":"2.6.0","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.7.0","com.unity.modules.androidjni":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
+        "com.unity.xr.core-utils":"2.6.0","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.7.1","com.unity.modules.androidjni":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.arcore@6.7/manual/index.html"
 }
@@ -1818,7 +1818,7 @@
     "name":"com.unity.xr.arfoundation",
     "displayName":"AR Foundation",
     "description":"AR Foundation enables you to create multi-platform augmented reality (AR) apps with Unity. To learn more about AR Foundation, click the Documentation link above.",
-    "version":"6.7.0",
+    "version":"6.7.1",
     "dependencies":{
         "com.unity.ugui":"2.0.0","com.unity.modules.ui":"1.0.0","com.unity.inputsystem":"1.6.3","com.unity.mathematics":"1.2.6","com.unity.xr.core-utils":"2.6.0","com.unity.xr.management":"4.4.0","com.unity.editorcoroutines":"1.0.0","com.unity.modules.particlesystem":"1.0.0","com.unity.modules.unityanalytics":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
     },
@@ -1829,9 +1829,9 @@
     "name":"com.unity.xr.arkit",
     "displayName":"Apple ARKit XR Plugin",
     "description":"Provides native Apple ARKit integration for use with Unity's multi-platform XR API.\nSupports the following features:\n-Efficient Background Rendering\n-Horizontal Planes\n-Depth Data\n-Anchors\n-Hit Testing\n-Face Tracking\n-Environment Probes\n-Meshing\n-Occlusion\n\n* Apple and ARKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
-    "version":"6.7.0",
+    "version":"6.7.1",
     "dependencies":{
-        "com.unity.xr.core-utils":"2.2.2","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.7.0","com.unity.editorcoroutines":"1.0.0"
+        "com.unity.xr.core-utils":"2.2.2","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.7.1","com.unity.editorcoroutines":"1.0.0"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.arkit@6.7/manual/index.html"
 }
