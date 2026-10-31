@@ -586,11 +586,11 @@
     "name":"com.unity.ml-agents",
     "displayName":"ML Agents",
     "description":"Use state-of-the-art machine learning to create intelligent character behaviors in any Unity environment (games, robotics, film, etc.).",
-    "version":"4.1.0",
+    "version":"4.2.0",
     "dependencies":{
         "com.unity.ai.inference":"2.6.1","com.unity.modules.physics":"1.0.0","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.imageconversion":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.ml-agents@4.1/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.ml-agents@4.2/manual/index.html"
 }
 ,
 "com.unity.mobile.android-logcat":{
@@ -1675,11 +1675,11 @@
     "name":"com.unity.test-framework.performance",
     "displayName":"Performance testing API",
     "description":"Package that extends Unity Test Framework package. Adds performance testing capabilities and collects configuration metadata.",
-    "version":"3.6.0",
+    "version":"3.7.0",
     "dependencies":{
         "com.unity.test-framework":"1.1.33","com.unity.modules.jsonserialize":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.test-framework.performance@3.6/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.test-framework.performance@3.7/manual/index.html"
 }
 ,
 "com.unity.testtools.codecoverage":{
@@ -1895,7 +1895,7 @@
     "name":"com.unity.xr.oculus",
     "displayName":"Oculus XR Plugin",
     "description":"Provides display and input support for Oculus devices.",
-    "version":"4.5.5",
+    "version":"4.5.6",
     "dependencies":{
         "com.unity.xr.management":"4.4.0","com.unity.modules.androidjni":"1.0.0"
     },
