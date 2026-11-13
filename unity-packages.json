@@ -1433,7 +1433,7 @@
     "name":"com.unity.services.leaderboards",
     "displayName":"Leaderboards",
     "description":"Add socio-competitive elements to your game by allowing users to compete on leaderboards. Use the Leaderboards service to store, sort, and rank player scores powered by Unity Gaming Services.",
-    "version":"2.3.4",
+    "version":"2.3.5",
     "dependencies":{
         "com.unity.services.core":"1.15.1","com.unity.services.authentication":"3.3.3"
     },
