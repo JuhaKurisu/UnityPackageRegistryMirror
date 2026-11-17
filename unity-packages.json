@@ -1191,9 +1191,9 @@
     "name":"com.unity.purchasing",
     "displayName":"In-App Purchasing",
     "description":"Unity In-App Purchasing (Unity IAP) allows you to sell digital content within your application. This package provides a unified API for handling in-app purchases across multiple platforms, including the Apple App Store and Google Play Store.\n\nUnity IAP also supports direct-to-consumer (D2C) sales, letting you sell to your players outside the app stores through your own webshop, with a shared product catalog across all of them. The in-game purchase flows are built to make it easy for you to comply with Apple and Google's policies for external purchases in supported regions (refer to Unity IAP documentation):\n\n ▪ A single API to access all supported stores, making it easier to manage your in-game economy.\n ▪ D2C sales through supported payment providers, who act as merchant of record so you don't take on tax, fraud or chargebacks.\n ▪ One product catalog shared across D2C providers that can be imported from Apple & Google.\n ▪ D2C purchase flows designed for Apple and Google's external purchase policies, by region.\n ▪ A free hosted webshop generated from your catalog.\n ▪ Reporting across app store and direct-to-consumer purchases in one place (Unity Analytics not required).\n ▪ Client-side receipt validation for the Apple App Store and Google Play.\n\nTo enable In-App Purchasing, install the package, then go to Services > In-App Purchasing > Configure.\n\nThis package collects data on your behalf as described in Unity's Developer Data framework. Collection can be managed per project in the Developer Data section of Project Settings in the Unity Dashboard.",
-    "version":"5.5.0",
+    "version":"5.5.1",
     "dependencies":{
-        "com.unity.ugui":"1.0.0","com.unity.services.core":"1.18.0","com.unity.modules.androidjni":"1.0.0","com.unity.services.deployment":"1.7.2","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
+        "com.unity.ugui":"1.0.0","com.unity.services.core":"1.19.0","com.unity.modules.androidjni":"1.0.0","com.unity.services.deployment":"1.7.2","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.purchasing@5.5/manual/index.html"
 }
@@ -1213,11 +1213,11 @@
     "name":"com.unity.remote-config",
     "displayName":"Remote Config",
     "description":"Remote Config is a cloud service that lets you tune and customize your app over the air without requiring an update to your game.  You can use rules to enable or disable features, change the difficulty of your game or run special events to target specific audiences.  Campaigns control when updates are applied and to whom, while Unity manages delivery of your game content with minimal performance impact. \n\nRemote Config can be configured via the editor or through our public API’s.  Functionality includes: \n- Release new features without deploying code:\n   - Feature flagging\n   - Staged Rollouts\n   - Kill switch functionality\n   - Start & End Date\n   - Enable & disable rules\n- Personalized real-time segmentation with custom attributes\n   - Custom conditions for applying setting variants\n   - Device, user, game and other arbitrary attributes supporting\n- Reporting\n   - Tracing ID for decorating analytics events",
-    "version":"4.2.5",
+    "version":"4.3.0",
     "dependencies":{
         "com.unity.nuget.newtonsoft-json":"3.0.2","com.unity.remote-config-runtime":"4.0.4","com.unity.modules.unitywebrequest":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.remote-config@4.2/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.remote-config@4.3/manual/index.html"
 }
 ,
 "com.unity.render-pipelines.core":{
@@ -1400,11 +1400,11 @@
     "name":"com.unity.services.deployment",
     "displayName":"Deployment",
     "description":"The Deployment package allows for a cohesive interface for the deployment of assets and configurations for UGS services.\n\nIt is not used on its own as UGS services will integrate with it.\nIt provides the base tooling, such as the Deployment Window, so that UGS services have shared functionality surrounding the deployment of the service's configuration files.\nCurrently supports:\n- Cloud Code\n- Economy\n- Leaderboards\n- Multiplayer Services\n\t- Server Hosting\n\t- Matchmaker\n- Services tooling\n\t- Game Overrides\n\t- Access Control\n- Remote Config",
-    "version":"1.7.2",
+    "version":"1.8.0",
     "dependencies":{
-        "com.unity.services.core":"1.15.1","com.unity.services.deployment.api":"1.1.2"
+        "com.unity.services.core":"1.19.0","com.unity.services.deployment.api":"1.1.3"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.deployment@1.7/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.deployment@1.8/manual/index.html"
 }
 ,
 "com.unity.services.economy":{
@@ -1422,7 +1422,7 @@
     "name":"com.unity.services.friends",
     "displayName":"Friends",
     "description":"The Friends service allows you to boost player engagement by providing players with a social system that works well with other Unity services. With Friends, your players can send and receive friend requests, build and manage friends lists, and block and unblock other players.",
-    "version":"1.4.0",
+    "version":"1.4.1",
     "dependencies":{
         "com.unity.services.core":"1.18.0","com.unity.services.wire":"1.6.2","com.unity.nuget.newtonsoft-json":"3.2.2","com.unity.modules.unitywebrequest":"1.0.0","com.unity.services.authentication":"3.8.0","com.unity.modules.unitywebrequestwww":"1.0.0","com.unity.modules.unitywebrequestaudio":"1.0.0","com.unity.modules.unitywebrequesttexture":"1.0.0","com.unity.modules.unitywebrequestassetbundle":"1.0.0"
     },
@@ -1433,11 +1433,11 @@
     "name":"com.unity.services.leaderboards",
     "displayName":"Leaderboards",
     "description":"Add socio-competitive elements to your game by allowing users to compete on leaderboards. Use the Leaderboards service to store, sort, and rank player scores powered by Unity Gaming Services.",
-    "version":"2.3.5",
+    "version":"2.4.0",
     "dependencies":{
-        "com.unity.services.core":"1.15.1","com.unity.services.authentication":"3.3.3"
+        "com.unity.services.core":"1.19.0","com.unity.services.deployment":"1.8.0","com.unity.services.authentication":"3.9.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.leaderboards@2.3/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.leaderboards@2.4/manual/index.html"
 }
 ,
 "com.unity.services.levelplay":{
@@ -1499,11 +1499,11 @@
     "name":"com.unity.services.multiplayer",
     "displayName":"Multiplayer Services",
     "description":"The Multiplayer Services package is a one-stop solution for adding multiplayer elements to a game developed in Unity. The Unity Gaming Services (UGS) Multiplayer services powers these capabilities to define how groups of players interact in your games.",
-    "version":"2.4.1",
+    "version":"2.5.0",
     "dependencies":{
-        "com.unity.transport":"2.7.4","com.unity.collections":"2.6.8","com.unity.services.qos":"1.5.1","com.unity.services.core":"1.18.0","com.unity.services.wire":"1.5.1","com.unity.services.deployment":"1.7.2","com.unity.nuget.newtonsoft-json":"3.2.2","com.unity.modules.unitywebrequest":"1.0.0","com.unity.services.authentication":"3.8.0"
+        "com.unity.transport":"2.7.4","com.unity.collections":"2.6.8","com.unity.services.qos":"1.5.1","com.unity.services.core":"1.19.0","com.unity.services.wire":"1.5.1","com.unity.services.deployment":"1.8.0","com.unity.nuget.newtonsoft-json":"3.2.2","com.unity.modules.unitywebrequest":"1.0.0","com.unity.services.authentication":"3.9.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.multiplayer@2.4/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.multiplayer@2.5/manual/index.html"
 }
 ,
 "com.unity.services.playeraccounts":{
@@ -1543,11 +1543,11 @@
     "name":"com.unity.services.tooling",
     "displayName":"Services Tooling",
     "description":"The tooling package provides deep editor integrations such as Config as Code for Unity Cloud services that don't have or need to have their own package.\n\nCurrently supported services:\n- Access Control\n- Game Overrides",
-    "version":"1.4.1",
+    "version":"1.5.0",
     "dependencies":{
-        "com.unity.services.core":"1.16.0","com.unity.services.deployment":"1.7.1","com.unity.services.authentication":"3.6.0"
+        "com.unity.services.core":"1.19.0","com.unity.services.deployment":"1.8.0","com.unity.services.authentication":"3.9.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.tooling@1.4/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.tooling@1.5/manual/index.html"
 }
 ,
 "com.unity.services.ugc":{
