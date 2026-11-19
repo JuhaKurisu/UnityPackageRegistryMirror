@@ -597,11 +597,11 @@
     "name":"com.unity.mobile.android-logcat",
     "displayName":"Android Logcat",
     "description":"Android Logcat package provides support for:\n - Android log messages\n - Android application memory statistics\n - Input injection\n - Android Screen Capture\n - Android Screen Recorder\n - Stacktrace Utility\n\nClick the 'View documentation' link above for more information.\n\nThe window can be accessed in Unity Editor via 'Window > Analysis > Android Logcat', or simply by pressing 'Alt+6' on Windows or 'Option+6' on macOS. \n\nMake sure to have Android module loaded and switch to Android build target in 'Build Settings' window if the menu doesn't exist.",
-    "version":"1.4.7",
+    "version":"1.5.0",
     "dependencies":{
         
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.mobile.android-logcat@1.4/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.mobile.android-logcat@1.5/manual/index.html"
 }
 ,
 "com.unity.mobile.notifications":{
