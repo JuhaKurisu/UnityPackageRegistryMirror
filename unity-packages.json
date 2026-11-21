@@ -124,7 +124,7 @@
     "name":"com.unity.addressables.android",
     "displayName":"Addressables for Android",
     "description":"The Addressables for Android package is designed to work in conjunction with the Addressables package to support Play Asset Delivery and provides tools to pack Addressables groups into Android asset packs. This way you can take full advantage of asset pack based dynamic delivery, including Texture Compression Targeting support when it's enabled for your project.",
-    "version":"1.1.0",
+    "version":"1.1.1",
     "dependencies":{
         "com.unity.addressables":"2.3.16","com.unity.modules.androidjni":"1.0.0"
     },
@@ -322,11 +322,11 @@
     "name":"com.unity.external-dependency-manager",
     "displayName":"External Dependency Manager",
     "description":"External Dependency Manager helps Unity projects automatically resolve and manage native plugin dependencies (e.g., Android/iOS libraries).",
-    "version":"2.1.1",
+    "version":"2.2.0",
     "dependencies":{
         "com.unity.modules.uielements":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.external-dependency-manager@2.1/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.external-dependency-manager@2.2/manual/index.html"
 }
 ,
 "com.unity.feature.2d":{
@@ -487,7 +487,7 @@
     "name":"com.unity.learn.iet-framework",
     "displayName":"Tutorial Framework",
     "description":"This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
-    "version":"6.0.7",
+    "version":"6.0.8",
     "dependencies":{
         "com.unity.editorcoroutines":"1.0.0","com.unity.settings-manager":"1.0.3"
     },
@@ -498,9 +498,9 @@
     "name":"com.unity.learn.iet-framework.authoring",
     "displayName":"Tutorial Authoring Tools",
     "description":"Authoring tools for In-Editor Tutorials. Required for authoring In-Editor Tutorial assets.",
-    "version":"2.0.7",
+    "version":"2.0.8",
     "dependencies":{
-        "com.unity.learn.iet-framework":"6.0.7"
+        "com.unity.learn.iet-framework":"6.0.8"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.learn.iet-framework.authoring@2.0/manual/index.html"
 }
@@ -1092,11 +1092,11 @@
     "name":"com.unity.performance.profile-analyzer",
     "displayName":"Profile Analyzer",
     "description":"The Profile Analyzer tool supports the standard Unity Profiler. You can use it to analyze multiple frames and multiple data sets of the CPU data in the Profiler.\n\nMain features: \n▪ Multi-frame analysis of a single set of Profiler CPU data \n▪ Comparison of two multi-frame profile scans \n\n",
-    "version":"1.4.2",
+    "version":"1.5.0",
     "dependencies":{
         
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.4/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.5/manual/index.html"
 }
 ,
 "com.unity.physics":{
